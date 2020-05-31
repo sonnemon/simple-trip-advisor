@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "tpad",
+    "slug": "tpad",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00a680"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier":"com.sonnemon.5tenedores",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.sonnemon.tpad",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCFHAjm-UXtolhiB5pno_aWq8jVrLT-L3Q"
+        }
+      }
+    },
+    "description": ""
+  }
+}
